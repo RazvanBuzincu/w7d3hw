@@ -1,0 +1,20 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg-image {
+    
+    background-image: url('https://mclaren.bloomreach.io/delivery/resources/content/gallery/mclaren-racing/formula-1/2023/singapore-gp/okx-takeover/mclaren_okx_wide-mclaren-shoot.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#f1Data, #f1Data th, #f1Data td {
+    color: white; 
+}
+#f1Form label {
+    color: white
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1 Racer Data</title>
+</head>
+<body>
+    <body class="bg-image">
+
+    <form id="f1Form">
+        <label for="season">Season:</label>
+        <input type="text" id="season" name="season" required>
+
+        <label for="round">Round:</label>
+        <input type="text" id="round" name="round" required>
+
+        <button type="submit">Get Data</button>
+    </form>
+
+    <table id="f1Data">
+        <thead>
+            <tr>
+                <th>Position</th>
+                <th>Driver</th>
+                <th>Nationality</th>
+                <th>Sponsor</th>
+                <th>Points</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        </tbody>
+    </table>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+</body>
+</html>
+
